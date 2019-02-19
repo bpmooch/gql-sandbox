@@ -5,6 +5,9 @@
 
 schema:
 - schema.graphql
+models:
+  Todo:
+   model: github.com/chrism00ch/gql-sandbox/gettingstarted.Todo
 exec:
   filename: generated.go
 model:
@@ -12,6 +15,3 @@ model:
 resolver:
   filename: resolver.go
   type: Resolver
-models:
-  Todo:
-    model: github.com/chrism00ch/gql-sandbox/gettingstarted.Todo
