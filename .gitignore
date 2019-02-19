@@ -10,3 +10,6 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Stackdump files (vim I think?)
+sh.exe.stackdump
